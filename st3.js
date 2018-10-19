@@ -16,7 +16,7 @@ client.on('ready', () => {
       let ToRnEdO  = ["hi","spam","nigga"]
   setInterval(() => {
 client.channels.get("489081550835548201").send(`${ToRnEdO [Math.floor(Math.random() *ToRnEdO .length)]}`)
-},1);
+},100);
 });
   
 
